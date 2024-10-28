@@ -27,6 +27,7 @@
             android:text="Food Name"
             android:textSize="18sp"
             android:layout_marginBottom="8dp"/>
+
         <TextView
             android:id="@+id/etFoodName"
             android:layout_width="match_parent"
@@ -43,7 +44,7 @@
             android:textSize="18sp"
             android:layout_marginBottom="8dp"/>
         <EditText
-            android:id="@+id/etServings"
+            android:id="@+id/etNumberOfServings"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter number of servings"
@@ -59,13 +60,12 @@
             android:textSize="18sp"
             android:layout_marginBottom="8dp"/>
         <EditText
-            android:id="@+id/etName"
+            android:id="@+id/etOrderingName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Ordering name by"
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
-
 
         <!-- Input Catatan Tambahan -->
         <TextView
@@ -75,14 +75,13 @@
             android:textSize="18sp"
             android:layout_marginBottom="8dp"/>
         <EditText
-            android:id="@+id/etNotes"
+            android:id="@+id/etAdditionalNotes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter any additional notes"
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
 
-        <!-- Tombol Order -->
         <Button
             android:id="@+id/btnOrder"
             android:layout_width="match_parent"

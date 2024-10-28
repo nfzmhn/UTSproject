@@ -22,41 +22,45 @@
 
     <!-- Confirmation Nama Makanan -->
     <TextView
+        android:id="@+id/tvFoodName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Food Name: Batagor"
+        android:text="Food Name:"
         android:textSize="18sp"
         android:layout_marginBottom="8dp"/>
 
     <!-- Confirmation Jumlah Porsi -->
     <TextView
+        android:id="@+id/tvNumberOfServings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Number of Servings: 2 pax"
+        android:text="Number of Servings:"
         android:textSize="18sp"
         android:layout_marginBottom="8dp"/>
 
     <!-- Confirmation Nama pengorder -->
     <TextView
+        android:id="@+id/tvOrderingName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ordering Name: Usep"
+        android:text="Ordering Name:"
         android:textSize="18sp"
         android:layout_marginBottom="8dp"/>
 
     <!-- Input Catatan Tambahan -->
     <TextView
+        android:id="@+id/tvAdditionalNotes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Additional Notes: Tidak Pedas"
+        android:text="Additional Notes:"
         android:textSize="18sp"
         android:layout_marginBottom="16dp"/>
 
-    <!-- Input Catatan Tambahan -->
+    <!-- Terima Kasih -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Thanks for your order and please wait for delivering by nearest courier"
+        android:text="Thanks for your order and please wait for delivery by the nearest courier"
         android:textStyle="bold"
         android:textSize="18sp"
         android:layout_marginBottom="8dp"/>
@@ -66,5 +70,4 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Back to Menu" />
-
 </LinearLayout>
