@@ -6,10 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
+    android:padding="30dp"
+    android:gravity="left"
+    android:background="@drawable/custom_edittext_background"
     tools:context=".OrderActivity">
 
-        <!-- Judul Halaman -->
         <TextView
             android:id="@+id/tvTitle"
             android:layout_width="wrap_content"
@@ -17,10 +18,10 @@
             android:text="Order Food"
             android:textSize="24sp"
             android:textStyle="bold"
+            android:padding="8dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="16dp"/>
 
-        <!-- Input Nama Makanan -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -34,7 +35,9 @@
             android:layout_height="wrap_content"
             android:hint="Enter food name - Get From List"
             android:padding="12dp"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="16dp"
+            android:drawablePadding="10dp"
+            android:background="@drawable/custom_edittext_background" />
 
         <!-- Input Jumlah Porsi -->
         <TextView
@@ -50,9 +53,10 @@
             android:hint="Enter number of servings"
             android:inputType="number"
             android:padding="12dp"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="16dp"
+            android:drawablePadding="10dp"
+            android:background="@drawable/custom_edittext_background"/>
 
-        <!-- Input Jumlah Porsi -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -65,9 +69,10 @@
             android:layout_height="wrap_content"
             android:hint="Ordering name by"
             android:padding="12dp"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="16dp"
+            android:drawablePadding="10dp"
+            android:background="@drawable/custom_edittext_background"/>
 
-        <!-- Input Catatan Tambahan -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -80,14 +85,18 @@
             android:layout_height="wrap_content"
             android:hint="Enter any additional notes"
             android:padding="12dp"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="16dp"
+            android:drawablePadding="10dp"
+            android:background="@drawable/custom_edittext_background"/>
 
         <Button
             android:id="@+id/btnOrder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Place Order"
+            android:backgroundTint="@color/colorPrimary"
             android:textColor="@android:color/white"
-            android:padding="12dp"/>
+            android:layout_marginBottom="24dp"
+            android:padding="8dp"/>
 
 </LinearLayout>

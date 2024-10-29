@@ -5,7 +5,6 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <!-- Judul Halaman -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -15,7 +14,6 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="32dp" />
 
-    <!-- Input Username -->
     <EditText
         android:id="@+id/etRegisterUsername"
         android:layout_width="match_parent"
@@ -25,7 +23,6 @@
         android:layout_marginBottom="16dp"
         android:inputType="text" />
 
-    <!-- Input Email -->
     <EditText
         android:id="@+id/etRegisterEmail"
         android:layout_width="match_parent"
@@ -35,7 +32,6 @@
         android:layout_marginBottom="16dp"
         android:inputType="textEmailAddress" />
 
-    <!-- Input Password -->
     <EditText
         android:id="@+id/etRegisterPassword"
         android:layout_width="match_parent"
@@ -45,14 +41,12 @@
         android:layout_marginBottom="16dp"
         android:inputType="textPassword" />
 
-    <!-- Button Register -->
     <Button
         android:id="@+id/btnRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Register"
         android:layout_gravity="center_horizontal"
-        android:textColor="@android:color/white"
+        android:backgroundTint="@color/colorPrimary"
         android:padding="12dp"/>
-
 </LinearLayout>
