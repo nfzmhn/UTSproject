@@ -19,7 +19,6 @@ class ListFoodActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_list_food)
 
-
         recyclerView = findViewById(R.id.recyclerView)
         recyclerView.layoutManager = LinearLayoutManager(this)
 
@@ -31,7 +30,7 @@ class ListFoodActivity : AppCompatActivity() {
 
         adapter = FoodAdapter(foodList){ selectedFood ->
             val intent = Intent(this, OrderActivity::class.java)
-            intent.putExtra("food_name", selectedFood.name)
+            intent.putExtra("FOOD_NAME", selectedFood.name)
             intent.putExtra("food_description", selectedFood.description)
             intent.putExtra("food_image", selectedFood.imageResourceId)
             startActivity(intent)

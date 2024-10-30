@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="30dp"
+    android:layout_margin="25dp"
     android:gravity="left"
     android:background="@drawable/custom_edittext_background"
     tools:context=".OrderActivity">
@@ -39,7 +40,6 @@
             android:drawablePadding="10dp"
             android:background="@drawable/custom_edittext_background" />
 
-        <!-- Input Jumlah Porsi -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
